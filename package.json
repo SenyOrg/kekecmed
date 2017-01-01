@@ -1,0 +1,19 @@
+{
+  "name": "kekecmed",
+  "version": "1.0.0",
+  "description": "The Medical Office Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SenyOrg/kekecmed.git"
+  },
+  "author": "Selcuk Kekec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SenyOrg/kekecmed/issues"
+  },
+  "homepage": "https://github.com/SenyOrg/kekecmed#readme"
+}
