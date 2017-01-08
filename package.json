@@ -4,6 +4,7 @@
   "description": "The Medical Office Manager",
   "main": "index.js",
   "scripts": {
+    "start": "concurrently --kill-others \"cd frontend && npm run start\" \"cd backend && npm run start:dev\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SenyOrg/kekecmed/issues"
   },
-  "homepage": "https://github.com/SenyOrg/kekecmed#readme"
+  "homepage": "https://github.com/SenyOrg/kekecmed#readme",
+  "devDependencies": {
+    "concurrently": "^3.1.0"
+  }
 }
